@@ -33,3 +33,9 @@ GitHub 仓库：https://github.com/laiyongxuan/laiyongxuan.github.io
 - 核验记录见 `SOURCES.md`。已包含简历逐条列出的全部 21 篇论文及 4 篇补充成果（共 25 条，含 1 篇已录用论文），并非全部历史发表目录。
 
 仅保留学术联系邮箱；未包含电话号码、出生日期、政治面貌、项目经费或原始简历文件。
+
+## 2026-11-21 编辑说明
+
+为保留手动修改过的论文内容，构建现在直接读取 templates/publications-en.html 和 templates/publications-zh.html。论文显示内容请编辑这两个文件；publications.json 暂作为原始参考数据，不再自动覆盖论文列表。
+
+招生模块已移动到个人简介后，并明确包含硕士与博士。访客统计预留于 templates/visitors-en.html 和 templates/visitors-zh.html，位于正文最后；需要站点所有者在 MapMyVisitors 登录并提供专属地图嵌入代码后才能启用。目前未安装追踪代码，也未显示虚构统计。

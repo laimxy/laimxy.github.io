@@ -36,5 +36,5 @@ def bibliography(lang):
 for lang,name in [('en','index.html'),('zh','zh.html')]:
     template=(ROOT/'templates'/f'{lang}.html').read_text(encoding='utf-8')
     assert template.count('{{PUBLICATIONS}}')==1
-    (ROOT/name).write_text(template.replace('{{PUBLICATIONS}}',bibliography(lang)),encoding='utf-8')
+    (ROOT/name).write_text(template.replace('{{PUBLICATIONS}}',(ROOT/'templates'/f'publications-{lang}.html').read_text(encoding='utf-8')).replace('{{VISITORS}}',(ROOT/'templates'/f'visitors-{lang}.html').read_text(encoding='utf-8')),encoding='utf-8')
 print(f'Generated index.html and zh.html: {len(papers)} records, all 21 CV entries accounted for.')

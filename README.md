@@ -1,8 +1,8 @@
 # 赖永炫 · 学术主页
 
-网站地址：https://laiyongxuan.github.io/
+网站地址：https://laimxy.github.io/
 
-GitHub 仓库：https://github.com/laiyongxuan/laiyongxuan.github.io
+GitHub 仓库：https://github.com/laimxy/laimxy.github.io
 
 当前发布源为 `master` 分支的根目录；更新该分支后 GitHub Pages 会自动部署。
 
@@ -38,4 +38,6 @@ GitHub 仓库：https://github.com/laiyongxuan/laiyongxuan.github.io
 
 为保留手动修改过的论文内容，构建现在直接读取 templates/publications-en.html 和 templates/publications-zh.html。论文显示内容请编辑这两个文件；publications.json 暂作为原始参考数据，不再自动覆盖论文列表。
 
-招生模块已移动到个人简介后，并明确包含硕士与博士。访客统计预留于 templates/visitors-en.html 和 templates/visitors-zh.html，位于正文最后；需要站点所有者在 MapMyVisitors 登录并提供专属地图嵌入代码后才能启用。目前未安装追踪代码，也未显示虚构统计。
+招生模块已移动到个人简介后，并明确包含硕士与博士。访客统计预留于 templates/visitors-en.html 和 templates/visitors-zh.html，位于正文最后；已接入站点所有者提供的专属 MapMyVisitors 地图代码，实际访问统计由第三方服务提供。
+
+已接入用户提供的 MapMyVisitors 专属二维地图代码，中英文页面共享同一标识。发布地址经用户确认：https://laimxy.github.io/ 。
